@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.example.rnr"
+    namespace = "org.dumbapps.rnr"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

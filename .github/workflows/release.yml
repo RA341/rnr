@@ -68,7 +68,7 @@ jobs:
 
       - name: Build APK
         run: |
-          flutter build apk --release
+          flutter -v build apk --release
           mv build/app/outputs/flutter-apk/app-release.apk rnr_${{ steps.tagName.outputs.tag }}.apk
 
       - name: Upload Release Asset
