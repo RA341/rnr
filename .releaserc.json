@@ -4,6 +4,10 @@
     {
       "name": "release",
       "prerelease": false
+    },
+    {
+      "name": "ci",
+      "prerelease": false
     }
   ],
   "plugins": [
